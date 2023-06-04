@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "monche_bbox",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "id": null }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ 32.775369538107874, 67.977195147813859 ], [ 33.021379316439408, 67.976245520047314 ], [ 33.019570421010506, 67.885989449174573 ], [ 32.772475305421622, 67.885989449174573 ], [ 32.775369538107874, 67.977195147813859 ] ] ] ] } }
+]
+}
