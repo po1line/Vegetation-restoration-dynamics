@@ -33,8 +33,7 @@ The steps of analysis are the following:
 
 ## Libraries used
 
-* Geospatial data processing
-
+* Geospatial data processing  \
 ``ee`` (requires Google Drive account) \ 
 ``folium`` \
 ``geopandas`` \
