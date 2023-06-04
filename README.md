@@ -34,7 +34,7 @@ The steps of analysis are the following:
 ## Libraries used
 
 * Geospatial data processing  \
-``ee`` (requires Google Drive account) \ 
+``ee`` (requires Google Drive account)  \ 
 ``folium`` \
 ``geopandas`` \
 ``rasterio`` \
