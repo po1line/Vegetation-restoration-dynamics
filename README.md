@@ -22,13 +22,13 @@ The steps of analysis are the following:
 7 - ``shrubs`` \
 8 - ``grass``
 
-2. Land cover mapping  🏗
+2. Land cover mapping  ✅
 * ML model selection  
 * Inference obtaining  
 
 3. Time series analysis 🏗 
-* Getting land cover maps for available years 
-* Area analysis from year to year  
+* Getting land cover maps for available years
+* Change detection analysis ✅
 
 
 ## Libraries used
@@ -36,13 +36,14 @@ The steps of analysis are the following:
 * Geospatial data processing  \
 ``ee`` (requires Google Drive account)  \ 
 ``folium`` \
+``gdal`` \
 ``geopandas`` \
 ``rasterio`` \
 ``geojson`` , ``json`` 
 
 * Data analysis  \
 ``pandas`` \
-``bumpy`` \
+``numpy`` \
 ``matplotlib`` \
 ``seaborn`` 
 
