@@ -16,13 +16,13 @@ The steps of analysis are the following:
 1 - ``trees`` \
 2 - ``flooded vegetation`` \
 3 - ``open water`` \
-4 - ``settlements`` \
+4 - ``urban`` \
 5 - ``bare soil`` - a target class in which dynamics is of the most interest along with ``trees`` \
 6 - ``agriculture`` \
 7 - ``shrubs`` \
-8 - ``grass``
+9 - ``sparse vegetation``
 
-2. Land cover mapping  🏗
+2. Land cover mapping ✅
 * ML model selection  
 * Inference obtaining  
 
@@ -30,6 +30,12 @@ The steps of analysis are the following:
 * Getting land cover maps for available years 
 * Area analysis from year to year  
 
+After experiments, the Random Forest model was selected as the algorithm showing the best performance.
+As for the limitations, firstly, it should be noted, that in some cases urban and bare soil classes can be mixed up because some of the roads and buildings are located in the areas that lack vegetation, and thus are mixed with bare lands. Additionally, regardless of the level of metrics, visual inspection should be made to match determined classes with actual ones. Finally, the detection of some classes can be missed due to large area of pixel equal to 10x10 m2.
+However, it is enough to catch the plots of remediation in front of the smelter, which make presented results a promising solution for remote remediation efficiency monitoring. The quality of predictions can be further enhanced by label data enrichment, while other algorithms can be tested to obtain more precise and robust results for semi-automited monitoring solutions development.
+
+
+![Unbalanced RF results](https://raw.githubusercontent.com/po1line/Vegetation-restoration-dynamics/main/pics/RF_without_smote.png)
 
 ## Libraries used
 
